@@ -1,6 +1,7 @@
 # 一款将 SpringBoot 项目做成 Windows Service Wrapper 的 Maven 插件
 
 > Windows Service Wrapper v2.11.0
+
 > 包括但不限于 SpringBoot ,任何打成 java jar 包运行的 Maven 项目都可以使用
 
 ## 编写初衷
