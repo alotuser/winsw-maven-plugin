@@ -81,7 +81,8 @@
     </plugin>
 ```
 
-上面配置了JVM 参数 和 Spring Boot 应用的启动端口
+上面配置了JVM 参数 和 Spring Boot 应用的启动端口。
+
 其中winVersion是运行环境版本，例如:x64 ， x86 ， net2 ， net4 和 net461 。
 
 ## 使用注意
