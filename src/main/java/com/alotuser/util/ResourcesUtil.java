@@ -25,14 +25,14 @@ public class ResourcesUtil {
 			+ "</configuration>\r\n"
 			+ "";
 	public static final String XML_FILE="<service>\r\n"
-			+ "	<id>@dist.project.id@</id>\r\n"
-			+ "	<name>@dist.project.name@</name>\r\n"
-			+ "	<description>@dist.project.description@</description>\r\n"
-			+ "	<env name=\"@dist.project.name@_HOME\" value=\"%BASE%\"/>\r\n"
+			+ "	<id>{id}</id>\r\n"
+			+ "	<name>{name}</name>\r\n"
+			+ "	<description>{description}</description>\r\n"
+			+ "	<env name=\"{envName}_HOME\" value=\"%BASE%\"/>\r\n"
 			+ "	<logpath>%BASE%\\logs</logpath>\r\n"
 			+ "	<log mode=\"rotate\"></log>\r\n"
-			+ "	<executable>java</executable>\r\n"
-			+ "	<arguments>-jar \"@dist.project.name@.jar\"</arguments>\r\n"
+			+ "	<executable>{executable}</executable>\r\n"
+			+ "	<arguments>{arguments}</arguments>\r\n"
 			+ "</service>";
 
 	
