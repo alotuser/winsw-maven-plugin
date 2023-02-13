@@ -35,5 +35,5 @@ public class ResUtil {
 		byte[] bts = Base64Decoder.decode(enStr);
 		FileUtil.writeBytes(bts, dest);
 	}
-
+	
 }
