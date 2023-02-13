@@ -104,13 +104,13 @@ public class WindowsServiceMojo extends AbstractMojo {
 				File logDir = new File(distDir, File.separator + "logs");
 				FileUtil.mkdir(logDir.getPath());
 				String jarPrefixName = getJarPrefixName(isVersion);
+				
 				/* 复制文件 */
 				String resName = StrUtil.concat(true, "WinSW-", wv, ".exe.yml");
 
 				ResUtil.writeWinFile(resName, new File(distDir, File.separator + jarPrefixName + ".exe"));
 				FileUtil.writeString(format(jarName, jarPrefixName), new File(distDir, File.separator + jarPrefixName + ".xml"), CharsetUtil.UTF_8);
 				FileUtil.writeString(ResourcesUtil.README_FILE, new File(distDir, File.separator + "readme.txt"), CharsetUtil.UTF_8);
-				FileUtil.writeString(ResourcesUtil.CONFIG_FILE, new File(distDir, File.separator + jarPrefixName + ".exe.config"), CharsetUtil.UTF_8);
 				FileUtil.copy(new File(targetDir.getPath() + File.separator + jarNames), new File(distDir, File.separator + jarName), true);
 
 				 
