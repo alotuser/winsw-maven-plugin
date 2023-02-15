@@ -1,6 +1,6 @@
 # 一款将 SpringBoot 项目做成 Windows Service Wrapper 的 Maven 插件
 
-> Windows Service Wrapper v2.11.0
+> Windows Service Wrapper v2.12.0
 
 > 包括但不限于 SpringBoot ,任何打成 java jar 包运行的 Maven 项目都可以使用
 
@@ -23,7 +23,7 @@
         <plugin>
             <groupId>com.github.alotuser</groupId>
             <artifactId>winsw-maven-plugin</artifactId>
-            <version>2.11.0</version>
+            <version>2.12.0</version>
             <executions>
                 <execution>
                     <id>winsw</id>
@@ -63,7 +63,7 @@
    <plugin>
         <groupId>com.github.alotuser</groupId>
         <artifactId>winsw-maven-plugin</artifactId>
-        <version>2.11.0</version>
+        <version>2.12.0</version>
         <executions>
             <execution>
                 <phase>package</phase>
@@ -74,7 +74,7 @@
         </executions>
         <configuration>
             <isVersion>true</isVersion>
-            <winVersion>x64</winVersion>
+            <winVersion>net4</winVersion>
             <vmOptions>-Xms1024m -Xmx2048m</vmOptions>
             <programArguments>--spring.profiles.active=pro --server.port=7777</programArguments>
         </configuration>
