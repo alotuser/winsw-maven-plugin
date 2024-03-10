@@ -23,7 +23,7 @@
         <plugin>
             <groupId>com.github.alotuser</groupId>
             <artifactId>winsw-maven-plugin</artifactId>
-            <version>2.12.0</version>
+            <version>2.12.1</version>
             <executions>
                 <execution>
                     <id>winsw</id>
@@ -63,7 +63,7 @@
    <plugin>
         <groupId>com.github.alotuser</groupId>
         <artifactId>winsw-maven-plugin</artifactId>
-        <version>2.12.0</version>
+        <version>2.12.1</version>
         <executions>
             <execution>
                 <phase>package</phase>
