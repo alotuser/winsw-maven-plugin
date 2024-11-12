@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.alotuser</groupId>
 	<artifactId>winsw-maven-plugin</artifactId>
-	<version>2.12.3</version>
+	<version>2.12.7</version>
 	<packaging>maven-plugin</packaging>
 	<name>winsw-maven-plugin</name>
 	<description>Winsw Maven Plugin</description>
@@ -57,9 +57,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-		    <groupId>cn.hutool</groupId>
-		    <artifactId>hutool-core</artifactId>
-		    <version>5.8.33</version>
+		    <groupId>cn.alotus</groupId>
+		    <artifactId>astool</artifactId>
+		    <version>1.0.1</version>
 		</dependency>
 	</dependencies>
 	<build>

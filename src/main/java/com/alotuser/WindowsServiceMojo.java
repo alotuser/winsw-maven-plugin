@@ -15,10 +15,10 @@ import com.alotuser.util.ResUtil;
 import com.alotuser.util.ResourcesUtil;
 import com.alotuser.util.WinVersionUtil;
 
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.core.util.CharsetUtil;
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.ZipUtil;
+import cn.alotus.core.io.FileUtil;
+import cn.alotus.core.util.CharsetUtil;
+import cn.alotus.core.util.StrUtil;
+import cn.alotus.core.util.ZipUtil;
 
 @Mojo(name = "winsw", defaultPhase = LifecyclePhase.PACKAGE)
 public class WindowsServiceMojo extends AbstractMojo {

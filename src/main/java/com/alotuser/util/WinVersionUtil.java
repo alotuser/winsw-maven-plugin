@@ -1,7 +1,7 @@
 package com.alotuser.util;
 
-import cn.hutool.core.util.ArrayUtil;
-import cn.hutool.core.util.StrUtil;
+import cn.alotus.core.util.ArrayUtil;
+import cn.alotus.core.util.StrUtil;
 
 public class WinVersionUtil {
 
